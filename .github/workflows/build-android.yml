@@ -34,7 +34,7 @@ jobs:
           java-version: '17'
 
       - name: Set up pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
           run_install: false
 
