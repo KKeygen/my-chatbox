@@ -61,7 +61,7 @@ jobs:
           CHATBOX_BUILD_PLATFORM: android
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: Cache Gradle packages
         uses: actions/cache@v4
